@@ -6,9 +6,9 @@ Title: About
 
 網站: <a href="https://yanhanchenn.github.io/cd2024/content/index.html">https://mde.tw/cmsimde_site/</a>
 
-簡報: <a href="https://mde.tw/cmsimde_site/reveal">https://mde.tw/cmsimde_site/reveal</a>
+簡報: <a href="https://yanhanchenn.github.io/cd2024/reveal/">https://mde.tw/cmsimde_site/reveal</a>
 
-網誌: <a href="https://mde.tw/cmsimde_site/blog">https://mde.tw/cmsimde_site/blog</a>
+網誌: <a href="https://yanhanchenn.github.io/cd2024/blog/">https://mde.tw/cmsimde_site/blog</a>
 
 
 
