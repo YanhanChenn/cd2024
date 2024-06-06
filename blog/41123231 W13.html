@@ -59,7 +59,7 @@
 <meta property="og:url" content="./41123231 W13.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-05-15 11:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-06-05 15:38:39.069163+08:00"/>
+<meta property="article:modified_time" content="2024-06-06 07:42:25.340254+08:00"/>
 <meta property="article:author" content="./author/41123231.html">
 <meta property="article:section" content="41123231W13"/>
 <meta property="article:tag" content="網誌編寫"/>
@@ -74,7 +74,7 @@
   "name": "41123231-網誌13",
   "headline": "41123231-網誌13",
   "datePublished": "2024-05-15 11:00:00+08:00",
-  "dateModified": "2024-06-05 15:38:39.069163+08:00",
+  "dateModified": "2024-06-06 07:42:25.340254+08:00",
   "author": {
     "@type": "Person",
     "name": "41123231",
@@ -211,7 +211,7 @@ init_mathjax();
             | <time datetime="Wed 15 May 2024">Wed 15 May 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Wed 05 June 2024</span>
+            <span class="post-meta"> | Updated on Thu 06 June 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -235,7 +235,16 @@ init_mathjax();
 
 
 <h1>13周</h1>
-<p>這周主要是在畫圖,還有完足球機器人,開啟IPV6之後,做一些設定,並在網址上打出老師的IP之吼就可以開始遊戲,但老師希望我們做籃球的,這是一個不小的難題</p>
+<p>這周主要是在畫圖,還有完足球機器人,開啟IPV6之後,做一些設定,並在網址上打出老師的IP之吼就可以開始遊戲,但老師希望我們做籃球的,這是一個不小的難題
+在可攜程式系統安裝所需的 Python 模組: pip install pyzmq cbor keyboard
+在近端電腦上取下倉儲內容: git clone https://github.com/mdecd2023/2a3-pj3ag4
+球場、球員、數位計分器與類比計分器場景, 以及機器人球員控制程式位於: 2a3-pj3ag4\downloads\zmq_football 目錄
+利用 CoppeliaSim 4.5.1 rev1 for IPv6.7z 開啟 zmq_football 目錄中的 site.ttt
+利用可攜程式系統中的 SciTE 編輯器開啟 zmq_football 目錄中的 judge.py, 按下 Tools - Go 之後, CoppeliaSim 中的足球場景將開始進行模擬, 足球從球場正中央拋下, 兩隊球員完成列隊, 準備接受遠端 ZMQ RemoteAPI Python 程式操控, 以便進行球賽競技.
+各球員操控程式可跨 IPv4 與 IPv6 網路對場景中的機器人球員進行控制, 球場即時畫面可由 http://球場所在電腦_IP_位址或符號名稱:23020 擷取, 球場與控制端的防火牆必須允許雙方 ZMQ 網路封包通過 port 23000 與 23020, 其中 23000 用於 Python 程式控制, 而 23020 則用於網際 Visualization Stream 影像串流用.
+各球員控制端, 分別在各自電腦以可攜程式系統中的 SciTE 編輯器開啟 zmq_football 目錄中的 player.py, 並依據球員編號進行動作操控.
+鍵盤中的 a 鍵控制球員向左轉, d 鍵控制球員向右轉, w 向前移動, s 向後移動, space 鍵翻身, 按下 shift 鍵將加速並轉向, 按下 q 鍵則終止模擬.</p>
+<h1>模擬影片:<a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/41123231_nfu_edu_tw/EcXN2GmCVyhBoBkp1Xg_MjYBMBlrIpDn8mqg73M-9iIlUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=d3TXUL">足球</a></h1>
             </section>
 
             <section class="post-info">
